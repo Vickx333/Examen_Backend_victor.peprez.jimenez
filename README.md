@@ -37,9 +37,9 @@ como desplegar el la aplicacion.
 
 
 Opción 
-.1: Strategy 
-.2: Factory Method 
-.3: Adapter
+-1: Strategy 
+-2: Factory Method 
+-3: Adapter
 
 
 __problema 1:__
