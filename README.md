@@ -52,7 +52,7 @@ define clase concreta para sendGrid y para mandrill así como para cualquier otr
 
 - Paso 4:implementacion de las clases en aplicación.
 
- ## usando javascript seria de la siguiente manera: 
+ # usando javascript seria de la siguiente manera: 
 
  __Paso1:__
  class EmailService {
