@@ -21,7 +21,7 @@ https://github.com/Vickx333/ContadorDePalabras_Victor.p.j.z/tree/main
 
 # #######################
 
-# __CRUDUSUARIOS__
+# __CRUD USUARIOS__
 - en el siguiente link se encuentra el CRUD de usuarios usando una base de datos no relacional, JSON y el framework bootstrap para darle vista. 
 como desplegar el la aplicacion.
 1->  https://github.com/Vickx333/Examen_Backend_victor.peprez.jimenez
@@ -55,13 +55,13 @@ define clase concreta para sendGrid y para mandrill así como para cualquier otr
 
  usando javascript seria de la siguiente manera: 
 
-# paso1:
+ __paso1:__
  class EmailService {
   sendEmail(email) {
     throw new Error("error");
   }
 }
-# paso 2
+__paso 2:__
 ___clase  sendGrid__
 class SendGridService extends EmailService {
   sendEmail(email) {
@@ -77,7 +77,7 @@ class MandrillService extends EmailService {
   }
 }
 
-# paso 3: 
+ __paso 3:__ 
 class EmailClient {
   constructor(emailService) {
     this.emailService = emailService;
@@ -89,7 +89,7 @@ class EmailClient {
   }
 }
 
-# paso 4: 
+__paso 4:__ 
 
 const sendGridService = new SendGridService();
 const mandrillService = new MandrillService();
