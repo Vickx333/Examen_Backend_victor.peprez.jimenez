@@ -5,7 +5,8 @@ reactjs.
 https://vickx333.github.io/examen_algoritmos_victor.perez.jimenez/
 
 - carpera espesifica del codigo donde se  implemento en contador de puntos con js. 
-y dejé un comentario en las variables donde podemos cambiar los puntajes por prueva y variar los puntajes. 
+y dejé un comentario en las variables donde podemos cambiar los puntajes por prueva y variar los puntajes.
+
 https://github.com/Vickx333/examen_algoritmos_victor.perez.jimenez/blob/master/src/components/Main.jsx.
 
 -Contador de palabras.
@@ -14,6 +15,8 @@ Para ejecutar el contador de palabras:
 Descarga la carpeta.
 Ejecuta el index.html en el navegador.
 Podrás ver el resultado en una línea de texto o el JSON en la consola.
+
+https://github.com/Vickx333/ContadorDePalabras_Victor.p.j.z/tree/main
 
 
 
