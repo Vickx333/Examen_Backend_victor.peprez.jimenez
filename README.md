@@ -54,13 +54,13 @@ define clase concreta para sendGrid y para mandrill así como para cualquier otr
 
  # usando javascript seria de la siguiente manera: 
 
- __Paso1:__
+- __Paso1:__
  class EmailService {
   sendEmail(email) {
     throw new Error("error");
   }
 }
-__paso 2:__
+- __paso 2:__
 ___clase  sendGrid__
 class SendGridService extends EmailService {
   sendEmail(email) {
@@ -76,7 +76,7 @@ class MandrillService extends EmailService {
   }
 }
 
- __paso 3:__ 
+- __paso 3:__ 
 class EmailClient {
   constructor(emailService) {
     this.emailService = emailService;
@@ -88,7 +88,7 @@ class EmailClient {
   }
 }
 
-__paso 4:__ 
+- __paso 4:__ 
 
 const sendGridService = new SendGridService();
 const mandrillService = new MandrillService();
