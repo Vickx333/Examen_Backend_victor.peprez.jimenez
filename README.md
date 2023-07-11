@@ -19,7 +19,7 @@ Podrás ver el resultado en una línea de texto o el JSON en la consola.
 
 https://github.com/Vickx333/ContadorDePalabras_Victor.p.j.z/tree/main
 
-# ####################### #
+
 
 # __CRUD USUARIOS__
 - en el siguiente link se encuentra el CRUD de usuarios usando una base de datos no relacional, JSON y el framework bootstrap para darle vista. 
