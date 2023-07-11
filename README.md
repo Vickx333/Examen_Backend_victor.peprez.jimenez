@@ -41,18 +41,18 @@ como desplegar el la aplicacion.
 - C: Adapter
 
 
-__problema 1:__
-## la mejor opcion es el patron Stratergy.
--Paso 1:Define una interfaz común para todos servicios de envio de correos.
 
--Paso 2: implementar las clases concretas para cada servicio de enviode correo,
+## la mejor opcion es el patron Stratergy.
+- Paso 1:Define una interfaz común para todos servicios de envio de correos.
+
+- Paso 2: implementar las clases concretas para cada servicio de enviode correo,
 define clase concreta para sendGrid y para mandrill así como para cualquier otro servicio de envio de correos. 
 
--Paso 3: define una clase cliente que utiliza el servicio de envio de correo
+- Paso 3: define una clase cliente que utiliza el servicio de envio de correo
 
--Paso 4:implementacion de las clases en aplicación.
+- Paso 4:implementacion de las clases en aplicación.
 
- usando javascript seria de la siguiente manera: 
+ ## usando javascript seria de la siguiente manera: 
 
  __Paso1:__
  class EmailService {
