@@ -107,7 +107,7 @@ client2.sendEmail(email);
 
 
 
-*Problema 2: Explica en tus propias palabras la diferencia entre Factory Method y Abstract Factory. Y proporciona un caso de uso.*
+# Problema 2: Explica en tus propias palabras la diferencia entre Factory Method y Abstract Factory. Y proporciona un caso de uso.*
 El Abstract Factory (Fábrica Abstracta) es un patrón de diseño creacional que se utiliza para crear familias de objetos relacionados basados en una propiedad en común. Por ejemplo, si tenemos una jerarquía de clases que representan diferentes tipos de clientes, como Cliente1, Cliente2, etc., el Abstract Factory puede proporcionar una interfaz para crear objetos de cada tipo de cliente de manera coherente y compatible.
 
 Por otro lado, el Factory Method (Método de Fábrica) es un patrón de diseño creacional que se utiliza para crear objetos de un tipo determinado. Por ejemplo, si tenemos clases separadas para clientes y vendedores, que son dos objetos distintos con diferentes comportamientos y propiedades, el Factory Method puede proporcionar un método separado para crear y devolver instancias de cada tipo de objeto (por ejemplo, crearCliente() y crearVendedor()).
