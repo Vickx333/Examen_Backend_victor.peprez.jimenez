@@ -37,13 +37,13 @@ como desplegar el la aplicacion.
 
 
 Opción 
--1: Strategy 
--2: Factory Method 
--3: Adapter
+-A: Strategy 
+-B: Factory Method 
+-C: Adapter
 
 
 __problema 1:__
-la mejor opcion es el patron Stratergy.
+## la mejor opcion es el patron Stratergy.
 -Paso 1:Define una interfaz común para todos servicios de envio de correos.
 
 -Paso 2: implementar las clases concretas para cada servicio de enviode correo,
