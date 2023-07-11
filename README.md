@@ -9,7 +9,7 @@ y dejé un comentario en las variables donde podemos cambiar los puntajes por pr
 
 https://github.com/Vickx333/examen_algoritmos_victor.perez.jimenez/blob/master/src/components/Main.jsx.
 
--Contador de palabras.
+__Contador de palabras.__
 Para ejecutar el contador de palabras:
 
 Descarga la carpeta.
