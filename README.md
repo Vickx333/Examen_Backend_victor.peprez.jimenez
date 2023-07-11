@@ -33,7 +33,7 @@ como desplegar el la aplicacion.
 
 # # # # # # # PATRONES DE DISEÑO
 
-*Problema 1: Un cliente requiere utilizar sendgrid para envíos de email, pero otro cliente requiere enviarlos por mandril. Se quiere evitar el uso de IF, y realizar un diseño en donde podamos utilizar más servicios en caso de que un cliente requiera alguno en específico ¿Qué patrón de diseño utilizarías y por qué?*
+# Problema 1: Un cliente requiere utilizar sendgrid para envíos de email, pero otro cliente requiere enviarlos por mandril. Se quiere evitar el uso de IF, y realizar un diseño en donde podamos utilizar más servicios en caso de que un cliente requiera alguno en específico ¿Qué patrón de diseño utilizarías y por qué?*
 
 
 Opción 
@@ -42,20 +42,20 @@ Opción
 3: Adapter
 
 
-# problema 1:
+__problema 1:__
 la mejor opcion es el patron Stratergy.
--paso 1:Define una interfaz común para todos servicios de envio de correos.
+-Paso 1:Define una interfaz común para todos servicios de envio de correos.
 
--paso 2: implementar las clases concretas para cada servicio de enviode correo,
+-Paso 2: implementar las clases concretas para cada servicio de enviode correo,
 define clase concreta para sendGrid y para mandrill así como para cualquier otro servicio de envio de correos. 
 
--paso 3: define una clase cliente que utiliza el servicio de envio de correo
+-Paso 3: define una clase cliente que utiliza el servicio de envio de correo
 
--paso 4:implementacion de las clases en aplicación.
+-Paso 4:implementacion de las clases en aplicación.
 
  usando javascript seria de la siguiente manera: 
 
- __paso1:__
+ __Paso1:__
  class EmailService {
   sendEmail(email) {
     throw new Error("error");
