@@ -1,12 +1,23 @@
 # # # # pyoyectos 
 __algoritmos app__
--En el siguiente lick se encuentra desplegada la aplicación con:
+-En el siguiente link se encuentra desplegada la aplicación con:
 reactjs.
 https://vickx333.github.io/examen_algoritmos_victor.perez.jimenez/
 
 - carpera espesifica del codigo donde se  implemento en contador de puntos con js. 
 y dejé un comentario en las variables donde podemos cambiar los puntajes por prueva y variar los puntajes. 
 https://github.com/Vickx333/examen_algoritmos_victor.perez.jimenez/blob/master/src/components/Main.jsx
+
+
+
+__CRUDUSUARIOS__
+- en el siguiente link se encuentra el CRUD de usuarios usando una base de datos no relacional, JSON y el framework bootstrap para darle vista. 
+como desplegar el la aplicacion.
+1->  https://github.com/Vickx333/Examen_Backend_victor.peprez.jimenez
+2->descarla la carpeta completa.
+3-> ejecuta el index.html en tu navegador. 
+
+
 
 
 # # # # # # # PATRONES DE DISEÑO
