@@ -1,5 +1,5 @@
 # # # # pyoyectos 
-__algoritmos app__
+__ALGORITMOS APP__
 -En el siguiente link se encuentra desplegada la aplicación con:
 reactjs.
 https://vickx333.github.io/examen_algoritmos_victor.perez.jimenez/
