@@ -33,13 +33,13 @@ como desplegar el la aplicacion.
 
 # # # # # # # PATRONES DE DISEÑO
 
-## Problema 1: Un cliente requiere utilizar sendgrid para envíos de email, pero otro cliente requiere enviarlos por mandril. Se quiere evitar el uso de IF, y realizar un diseño en donde podamos utilizar más servicios en caso de que un cliente requiera alguno en específico ¿Qué patrón de diseño utilizarías y por qué?*
+### Problema 1: Un cliente requiere utilizar sendgrid para envíos de email, pero otro cliente requiere enviarlos por mandril. Se quiere evitar el uso de IF, y realizar un diseño en donde podamos utilizar más servicios en caso de que un cliente requiera alguno en específico ¿Qué patrón de diseño utilizarías y por qué?*
 
 
 Opción 
-1: Strategy 
-2: Factory Method 
-3: Adapter
+.1: Strategy 
+.2: Factory Method 
+.3: Adapter
 
 
 __problema 1:__
